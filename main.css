@@ -36,9 +36,9 @@ button a {
 }
 
 button:hover {
-  background-color: red;
+  background-color: #ff0000;
 }
 
 button:active {
-  background-color: #3d8b3d;
+  background-color: red;
 }
