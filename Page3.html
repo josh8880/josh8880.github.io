@@ -11,7 +11,7 @@ stylesheet.setAttribute('href',url);
 function Enlarge(x) {x.style.height = "512px"; x.style.width = "512px";}
 function Smaller(x) {x.style.height = "256px"; x.style.width = "256px";}
 
-function EnlargeGif(x) {x.style.height= "500px"; x.style.width = "500px";}
+function EnlargeGif(x) {x.style.height= "500px"; x.style.width = "512px";}
 function SmallGif(x) {x.style.height = "25px"; x.style.width = "25px";}
 
 </script>
@@ -68,7 +68,7 @@ Page 3
 <ins> ins is underline too </ins> <br>
 <small> small is for small text </small> <br> 
 <mark> mark is for highlighting</mark> <br> 
-<em> em is for emphasist </em> <br>
+<em> em is for emphasis </em> <br>
 You can also combine this to make something crazy!<br>
 <i> <strong> <mark> this is i, strong and mark</i> </strong> </mark></p>
 
@@ -95,7 +95,7 @@ img src="link" will display an image from a link <br>
 <img src="https://joshs.screenshot-server.com/ss/N75fi"> <br>
 you can change the width and height by adding width="px" height="px" before the less than <br>
 <img src="https://joshs.screenshot-server.com/ss/N75fi" width="100" height="100"> <small> 100px each </small> <br>
-
+<img onmousehover="EnlargeGif(this)" onmouseout=SmallGif(this)" src="https://joshs.screenshot-server.com/ss/g/UrgJN.gif" height = "25" width ="25">
 <img onmouseover="Smaller(this)" onmouseout="Enlarge(this)" src="https://cdn.discordapp.com/attachments/1081326882638811286/1096550617373229108/image.png" height = "512" width ="512">
 
 <h1> Lists </h1>
