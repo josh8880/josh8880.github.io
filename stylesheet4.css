@@ -14,7 +14,7 @@ button {
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
-  background-color: lightgrey;
+  background-color: grey;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
@@ -22,9 +22,9 @@ button {
   text-decoration: none;
 }
 button:hover {
-    background-color: lightblue;
+    background-color: lightgreen;
 }
 
 body {
-  background-color: grey;
+  background-color: lightblue;
 }
