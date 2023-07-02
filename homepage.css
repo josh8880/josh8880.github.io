@@ -25,3 +25,16 @@
 .button:active {
   background-color: #bbb;
 }
+
+  body {
+  background-color: grey;
+}
+    
+    #Welcome {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration: bold
+}
+
+h2 {
+  text-decoration: underline;
