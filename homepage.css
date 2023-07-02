@@ -1,4 +1,17 @@
-  .button {
+  body {
+  background-color: grey;
+}
+    
+    #Welcome {
+  text-align: center;
+  text-decoration: underline;
+  text-decoration: bold
+}
+
+h2 {
+  text-decoration: underline;
+
+.button {
   display: inline-block;
   background-color: #f1f1f1;
   border: none;
