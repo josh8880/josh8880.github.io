@@ -1,3 +1,7 @@
+body {
+  background-color: lightblue;
+}
+
 #Welcome {
 text-align: center;
 text-decoration: underline;
@@ -6,8 +10,4 @@ text-decoration: bold
 
 #AboutMe {
   text-decoration: underline
-}
-
-body {
-  background-color: lightblue;
 }
