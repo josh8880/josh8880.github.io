@@ -1,19 +1,42 @@
-/* Styling for the button container */
-#HomepageButton {
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
 }
 
-/* Styling for the link */
-#HomepageButton a {
+h1#TopHeading {
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #666;
+  text-align: center;
+}
+
+button {
   display: block;
-  font-size: 18px;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button a {
   color: #fff;
   text-decoration: none;
 }
 
-#HomepageButton a:hover {
-  text-decoration: underline;
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3d8b3d;
 }
