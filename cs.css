@@ -1,3 +1,24 @@
-#HomepageButton {
-  text-align: centre;
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:active {
+  background-color: #3d8b3d;
 }
