@@ -4,7 +4,7 @@
 #Para1 {font-size: 30;}
 #Heading2 {text-align: right; text-decoration: underline;}
 
-body{background-color: lightblue;}
+body1{background-color: lightblue;}
 
 h1{color: red;}
 h1{text-align: left;}
@@ -31,4 +31,10 @@ p {
 table, th, td {
   border: 20px solid magenta;
   border-collapse: collapse;
+}
+
+#Welcome {
+text-align: center;
+text-decoration: underline;
+text-decoration: bold
 }
