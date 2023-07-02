@@ -1,0 +1,24 @@
+#HomepageButton {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#HomepageButton a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#HomepageButton:hover {
+  background-color: #45a049;
+}
+
+#HomepageButton:active {
+  background-color: #3d8b3d;
+}

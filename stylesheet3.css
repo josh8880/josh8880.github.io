@@ -1,0 +1,37 @@
+#TopHeading{text-align: center;}
+
+body{background-color: gray;}
+
+p{color: lightgreen;}
+p{font-family: verdana;font-size: 15px;}
+
+h1{color: blue;}
+h1{text-align: right;}
+
+button{color: white;}
+button{background-color: purple;}
+
+h2{color: magenta; text-align: center; font-size: 50; text-decoration: underline;}
+
+h3{color: pink; text-decoration: underline overline line-through;}
+
+h4{color: orange; text-decoration: overline; font-size: 20}
+
+h5{color: green;}
+
+h6{color: lightpurple;
+text-align: right}
+
+p {
+  font-family: verdana;
+  font-size: 15px;
+}
+
+table, th, td {
+  border: 2px solid blue;
+  border-collapse: collapse;
+}
+
+ol {color: blue;}
+
+ul{color:white;}
