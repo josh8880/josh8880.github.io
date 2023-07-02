@@ -1,5 +1,4 @@
-#HomepageButton,
-#FirstProject {
+#HomepageButton {
   display: block;
   margin: 20px auto;
   padding: 10px 20px;
@@ -11,18 +10,15 @@
   cursor: pointer;
 }
 
-#HomepageButton a,
-#FirstProject a {
+#HomepageButton a {
   color: #fff;
   text-decoration: none;
 }
 
-#HomepageButton:hover,
-#FirstProject:hover {
+#HomepageButton:hover {
   background-color: #45a049;
 }
 
-#HomepageButton:active,
-#FirstProject:active {
+#HomepageButton:active {
   background-color: #3d8b3d;
 }
