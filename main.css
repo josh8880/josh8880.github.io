@@ -11,6 +11,8 @@ h1#TopHeading {
   color: #333;
   text-align: center;
   margin-top: 50px;
+  text-decoration: underline;
+  text-decoration: bold;
 }
 
 h2 {
