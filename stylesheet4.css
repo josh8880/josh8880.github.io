@@ -22,7 +22,7 @@ button {
   text-decoration: none;
 }
 button:hover {
-    background-color: blue;
+    background-color: lightblue;
 }
 
 body {
