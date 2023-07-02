@@ -1,3 +1,7 @@
+body {
+  background-color: red;
+}
+
 #Welcome {
   text-align: center;
   text-decoration: underline;
