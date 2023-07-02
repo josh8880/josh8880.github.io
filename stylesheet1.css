@@ -32,13 +32,3 @@ table, th, td {
   border: 20px solid magenta;
   border-collapse: collapse;
 }
-
-#Welcome {
-text-align: center;
-text-decoration: underline;
-text-decoration: bold
-}
-
-#AboutMe {
-  text-decoration: underline;
-}
