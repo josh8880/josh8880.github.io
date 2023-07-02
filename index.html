@@ -19,6 +19,34 @@ button {
 
 h2 {
   text-decoration: underline;
+ 
+  .button {
+  display: inline-block;
+  background-color: #f1f1f1;
+  border: none;
+  color: black;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.button:active {
+  background-color: #bbb;
+}
   </style>
   
 <script>
@@ -47,11 +75,10 @@ Gaming </a>
 </p>
 
 <h2>Projects.</h2>
-<p>Here you can access some work that I have done for college.<br>
-<button> 
-<a href = "ComputerScience"> Computer Science </a> </button>
-<button> <a href = "Business"> Business </a> </button>
-<button> <a href = "ICT"> ICT </a> </button>
+<p>Here you can access some work that I have done for college: <br>
+<button class="button"> <a href="ComputerScience"> Computer Science </a> </button>
+<button class="button"> <a href="Business"> Business </a> </button>
+<button class="button"> <a href="ICT"> ICT </a> </button>
 </p>
   
 </body>
