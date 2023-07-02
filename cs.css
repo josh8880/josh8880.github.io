@@ -1,20 +1,19 @@
+/* Styling for the button container */
 #HomepageButton {
-  display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
+  background-color: #007bff;
   border: none;
   border-radius: 5px;
-  background-color: #4caf50;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+  padding: 10px 20px;
 }
 
-#HomepageButton {
+/* Styling for the link */
+#HomepageButton a {
+  display: block;
+  font-size: 18px;
   color: #fff;
   text-decoration: none;
 }
 
-#HomepageButton:hover {
-  background-color: #45a049;
+#HomepageButton a:hover {
+  text-decoration: underline;
 }
