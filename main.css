@@ -7,40 +7,29 @@ body {
   padding: 0;
 }
 
-h1#TopHeading {
+/* Styling for the heading */
+#TopHeading {
+  font-size: 24px;
   color: #333;
   text-align: center;
-  margin-top: 50px;
-  text-decoration: underline;
-  text-decoration: bold;
+  margin-bottom: 20px;
 }
 
-h2 {
-  color: #666;
-  text-align: center;
-}
-
-button {
+/* Styling for the link */
+a {
   display: block;
-  margin: 20px auto;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #4caf50;
-  color: #fff;
-  font-size: 16px;
-  cursor: pointer;
+  font-size: 18px;
+  color: #007bff;
+  text-decoration: none;
+  margin-top: 10px;
 }
 
-button a {
-  color: #fff;
-  text-decoration: none;
+a:hover {
+  text-decoration: underline;
 }
 
 button:hover {
   background-color: blue;
 }
 
-button:active {
-  background-color: #3d8b3d;
-}
+
