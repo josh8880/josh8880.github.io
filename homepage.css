@@ -25,3 +25,8 @@
 .button:active {
   background-color: #bbb;
 }
+
+body {
+background-color: red;
+
+}
