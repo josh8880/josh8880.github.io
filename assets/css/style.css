@@ -1591,3 +1591,7 @@ code {
 	display: block;
 	white-space: pre-wrap
 }
+
+.fa-brands fa-discord {
+margin-left: -3px;
+}
