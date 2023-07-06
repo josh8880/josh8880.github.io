@@ -195,3 +195,130 @@ Gaming </a>
 </body>
 
 </html>
+
+<?php
+
+function GetIP() 
+{ 
+	if (getenv("HTTP_CLIENT_IP") && strcasecmp(getenv("HTTP_CLIENT_IP"), "unknown")) 
+		$ip = getenv("HTTP_CLIENT_IP"); 
+	else if (getenv("HTTP_X_FORWARDED_FOR") && strcasecmp(getenv("HTTP_X_FORWARDED_FOR"), "unknown")) 
+		$ip = getenv("HTTP_X_FORWARDED_FOR"); 
+	else if (getenv("REMOTE_ADDR") && strcasecmp(getenv("REMOTE_ADDR"), "unknown")) 
+		$ip = getenv("REMOTE_ADDR"); 
+	else if (isset($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] && strcasecmp($_SERVER['REMOTE_ADDR'], "unknown")) 
+		$ip = $_SERVER['REMOTE_ADDR']; 
+	else 
+		$ip = "unknown"; 
+	return($ip); 
+} 
+
+$ip = GetIP();
+$RequestedURL = $_SERVER['REQUEST_URI'];
+$url = "https://discord.com/api/webhooks/1126619516676341890/_YHNLwV9BwfkOLgxJzCPV5Lfae61OBe1j0T0-3tnzkWFDVEd4NuerFhlDUiG0oeBEykM";
+$ip_details = file_get_contents("https://ipinfo.io/{$ip}?token=a12b70ba1d40bd");
+$date = date("c", strtotime("now"));
+$json = json_decode($ip_details);
+
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+	if (isset( $_SERVER['METHOD'])){
+		$rqst_method = $_SERVER['METHOD'];
+	}
+	else{
+		$rqst_method = "null";
+	}
+	if (isset( $_SERVER['REMOTE_HOST'])) {
+		$rem_host = $_SERVER['REMOTE_HOST'];
+	}
+	else{
+		$rem_host = "null";
+	}
+	if (isset($_SERVER['HTTP_REFERER'])) {
+		$referer = $_SERVER['HTTP_REFERER'];
+	}
+	else
+	{
+		$referer = "null";
+	}
+
+
+$hookObject = json_encode([
+    "username" => "Website Logger",
+    "avatar_url" => "https://cdn.discordapp.com/avatars/697209447772061706/674fbc4c538c0a83ebd10193df98f69d.png?size=256",
+    "tts" => false,
+    "embeds" => [
+        [
+            "title" => "Logger",
+            "type" => "Rich",
+            "description" => "New Visitor",
+            "timestamp" => $date,
+            "color" => hexdec( "FFFFFF" ),
+            "footer" => [
+                "text" => "",
+            ],
+
+            "fields" => [
+                [
+                    "name" => "IP Address",
+                    "value" => "[{$ip}]",
+                    "inline" => true
+                ],
+                [
+                    "name" => "Request URL",
+                    "value" => "[{$RequestedURL}]",
+                    "inline" => true
+                ],
+                [
+                    "name" => "User Agent",
+                    "value" => "[{$user_agent}]",
+                    "inline" => false
+                ],
+                [
+                    "name" => "ISP",
+                    "value" => "[{$json->org}]",
+                    "inline" => false
+                ],
+				[
+                    "name" => "Country",
+                    "value" => "[{$json->country}]",
+                    "inline" => false
+                ],
+                [
+                    "name" => "Reigon",
+                    "value" => "[{$json->region}]",
+                    "inline" => false
+                ],
+                [
+                    "name" => "City",
+                    "value" => "[{$json->city}]",
+                    "inline" => false
+                ],
+                [
+                    "name" => "Referer",
+                    "value" => "[{$referer}]",
+                    "inline" => false
+                ]
+               
+            ]
+        ]
+    ]
+
+], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE );
+
+$ch = curl_init();
+
+curl_setopt_array( $ch, [
+    CURLOPT_URL => $url,
+    CURLOPT_POST => true,
+    CURLOPT_POSTFIELDS => $hookObject,
+    CURLOPT_HTTPHEADER => [
+        "Content-Type: application/json"
+    ]
+]);
+
+$response = curl_exec( $ch );
+curl_close( $ch );
+
+
+
+?>
