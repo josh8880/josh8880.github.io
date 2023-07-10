@@ -78,7 +78,7 @@
 								<ul class="nav navbar-nav navbar-right">
 									<li><a class="active smoth-scroll" href="#home">Home</a></li>
 									<li><a class="smoth-scroll" href="#about">About</a></li>
-									<li><a class="smoth-scroll" href="#projects">Projects</a></li>
+									<li><a class="smoth-scroll" href="#projects">Personal Links</a></li>
 								</ul>
 							</div>
 						</div>
