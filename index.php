@@ -164,7 +164,7 @@ Gaming </a>
 				<div class="col-sm-4 curSkills"><a href="IctWork">ICT Work</a></div>
 				<div class="col-sm-4 curSkills"><a href="Business">Business Work</a></div>
 				<div class="col-sm-4 curSkills"><a href="https://tracker.gg/valorant/profile/riot/Josh%E3%83%83%23wshed/overview">Valorant Stats</a></div>
-				<div class="col-sm-4 curSkills">X</div>
+				<div class="col-sm-4 curSkills"><a href="https://medal.tv/u/!%20Josh">Medal (Clips)</a></div>
 				<div class="col-sm-4 curSkills">X</div>
 				<div class="col-sm-4 curSkills">X</div>
 				<div class="col-sm-4 curSkills">X</div>
