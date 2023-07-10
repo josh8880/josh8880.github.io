@@ -58,7 +58,7 @@
 			<div class="row">
 				<div class="col-sm-3">
 					<div class="logo">
-						<a href="index.php">Josh.</a>
+						<a href="https://www.j-osh.co.uk">Josh.</a>
 					</div>
 				</div>
 
