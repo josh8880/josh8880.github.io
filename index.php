@@ -165,7 +165,7 @@ the work that I have done as well as more stuff about me.
 				<div class="col-sm-4 curSkills"><a href="https://medal.tv/u/!%20Josh">Medal (Clips)</a></div>
 				<div class="col-sm-4 curSkills"><a href ="https://j-osh.co.uk/RussianMafia">FiveM Pictures</a></div>
 				<div class="col-sm-4 curSkills"><a href="https://j-osh.co.uk/CVFinal.pdf">CV</a></div>
-				<div class="col-sm-4 curSkills">X</div>
+				<div class="col-sm-4 curSkills"><a href="https://twitch.tv/Josh_8880">Twitch</a></div>
 				<div class="col-sm-4 curSkills">X</div>
 			</div>
 
