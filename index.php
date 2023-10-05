@@ -103,8 +103,8 @@
 							<h1>Hi, I'm Josh</h1>
 							<h3 id="text-rotator">
 								<div>College Student</div>
-								<div>Rust Gamer</div>
-								<div>FiveM Gamer</div>
+								<div>EFT Gamer</div>
+								<div>Occasional  Streamer</div>
 								<div>Aspiring...</div>
 							</h3>
 						</div>
@@ -125,7 +125,7 @@
 				<div class="description col-md-6 col-sm-4 col-xs-12 text-center center">
 					<h2>Hello, I am Josh.</h2>
 					<h4>College Student in the North East of England</h4>
-					<p>Hi! My name is Josh and I am currently in my first year at college. I am studying Computer Science, Business, and ICT. This website will show you 
+					<p>Hi! My name is Josh and I am currently in my second year at college. I am studying Computer Science, Business, and ICT. This website will show you 
 the work that I have done as well as more stuff about me.
 					</p>
 			
