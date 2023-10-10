@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Gaming</title>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'G-QPWGYQJDTC');
+	</script>
+
+	<!-- tab img -->
+	<link rel="icon" href="assets/cs.ico" type="image/x-icon">
+
+	<!-- css plugin -->
+<script src="https://kit.fontawesome.com/bcb015b1fe.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+	<link rel="stylesheet" href="assets/css/flexslider.css">
+	<link rel="stylesheet" href="assets/css/aos.css">
+
+	<!-- main css -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link rel="stylesheet" href="assets/css/style-responsives.css">
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Hind:600|Lato:300,400" rel="stylesheet">
+
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+		#CSInfo {text-decoration: underline;
+			}
+	</style>
+</head>
+
+<body>
+	<!-- // PRELOADER BEGIN -->
+	<div id="preloader">
+		<div id="status">
+			<div class="loader-revolve center">
+				<span></span>
+			</div>
+		</div>
+	</div>
+	<!-- // PRELOADER END -->
+
+	<!-- // NAVIGATION BEGIN -->
+	<div id="navigation">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="logo">
+						<a href="https://www.j-osh.co.uk">Josh.</a>
+					</div>
+				</div>
+
+				<div class="col-sm-9">
+					<div class="navigation-menu">
+						<div class="navbar">
+							<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							</div>
+
+							<div class="navbar-collapse collapse">
+								<ul class="nav navbar-nav navbar-right">
+									<li><a class="active smoth-scroll" href="#home">Home</a></li>
+									<li><a class="smoth-scroll" href="#about">About</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- // NAVIGATION END -->
+
+	<!-- // HOME BEGIN -->
+	<div id="home" class="home-bg" style="background-image: url('https://cdn.discordapp.com/attachments/985206114255773816/1125917284637098054/416335-digital-painting-neon-cityscape-futuristic-science-fiction.png')" data-stellar-background-ratio="0.6">
+		<div class="overlay">
+			<div class="container">
+				<div class="row">
+					<div class="home-text">
+						
+
+						<div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+							<h1>Computer Science</h1>
+							<h3 id="text-rotator">
+								<div>Past Projects</div>
+								<div>Current Projects</div>
+							</h3>
+						</div>
+					</div>
+					<a class="smoth-scroll" href="#about"><i class="fa fa-angle-down arrow"></i></a>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- // HOME END -->
+
+	<!-- // ABOUT BEGIN -->
+	<section id="about">
+		<div class="container">
+			<div class="row">
+
+				<div class="description col-md-6 col-sm-4 col-xs-12 text-center center">
+					<h2 id=CSInfo>What will be on this page?</h2>
+					<p>     On this page you will be able to find what I do when I am gaming and the games I may play and some of my funniest moments. <br><br>
+					</p>
+			
+				</div>
+
+				<div class="description col-md-6 col-sm-4 col-xs-12 text-center center">
+					<ul class="social-icons">
+						<li><a href="https://github.com/josh8880"><i class="fa fa-github"></i></a> - Github</li><br><br>
+						<li><a href="https://discord.gg/wa6HxvTJ"><i class="fa-brands fa-discord"></i></a> - Discord</li><br><br>
+						<li><a href="https://stackoverflow.com/">StackOverflow</a></li><br><br>
+					</ul>
+
+
+				</div>
+
+			</div>
+		</div>
+
+	</section>
+	<!-- // ABOUT END -->
+
+	<!-- // PERSONAL BEGIN -->
+	<section id="projects">
+		<div class="container">
+			<div class="row">
+				<div class="mySkills text-center">
+					<h2>Personal Profile:</h2>
+				</div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-sm-4 curSkills"><a href="Page1">First HTML / CSS Project</a></div>
+				<div class="col-sm-4 curSkills"><a href=#BlackJackSection>Blackjack</a></div>
+				<div class="col-sm-4 curSkills">X</div>
+				<div class="col-sm-4 curSkills">X</div>
+				<div class="col-sm-4 curSkills">X</div>
+				<div class="col-sm-4 curSkills">X</div>
+				<div class="col-sm-4 curSkills">X</div>
+				<div class="col-sm-4 curSkills">X</div>
+				<div class="col-sm-4 curSkills">X</div>
+			</div>
+
+		</div>
+	</section>
+	<!-- // PERSONAL END -->
+
+	<!-- // BLACKJACK START -->
+
+	<section id="BlackJackSection">
+		<div>
+			<div class="row text-center">
+				<h2>Blackjack Project:</h2>
+				<p>
+					In this project I had to make a working blackjack game. The only specifications was it had to follow the rules of blackjack and you had to make it to the best of your ablitly. <br>
+					This was my very first major project I had ever made in college (excluding smaller projects). I feel I had made this well. <br>
+					I made this using Visual Basic. This is what the main terminal looked like: <br>
+					<img src="assets/blackjack.png"> <br>
+					You have 8 boxes being: first card, second card, hit number and total. 4 of these are for the dealer and 4 of these are for the player. <br>
+					You start with 5,000 chips and the dealer then had 10,000 chips. There are then 4 buttons: start, hit, stand and restart. <br>
+					Start will start the game. The player gets 2 cards, the dealer gets 1. You can then decide to stand or hit. <br>
+					Stand can be pressed which will give the dealer a card and will automatically hit if the dealer total is less than 17. If greater than 17 compares <br>
+					totals and will see who is closer to 21 and will push is the values are the same. If the dealer total is less than 17 then the dealer will hit and it will <br>
+					add to the total. Once you start you are asked to enter a chip amount which you and the dealer will gamble for it. <br>
+					This project works fine for the most however, there can be a few issues and you need to restart between runs. <br>
+					This is what it looks like when you hit then stand: <br>
+					<img src="assets/BlackJack2.png">
+				</p>
+		</div>
+	</section>
+	
+	<!-- // BLACKJACK END -->
+
+	<!-- js plugin -->
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
+	<script src="assets/js/jquery.stellar.min.js"></script>
+	<script src="assets/js/text-rotate.js"></script>
+	<script src="assets/js/numscroller.js"></script>
+	<script src="assets/js/jquery.appear.js"></script>
+	<script src="assets/js/progress-bar.min.js"></script>
+	<script src="assets/js/jquery.mixitup.js"></script>
+	<script src="assets/js/jquery.magnific-popup.min.js"></script>
+	<script src="assets/js/magnific-popup-options.js"></script>
+	<script src="assets/js/jquery.flexslider-min.js"></script>
+	<script src="assets/js/aos.js"></script>
+	<script src="assets/js/app.js"></script>
+
+	<!-- main js -->
+	<script src="assets/js/main.js"></script>
+</body>
+
+</html>
