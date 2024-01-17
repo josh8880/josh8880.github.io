@@ -126,7 +126,8 @@
 					<h2>Hello, I am Josh.</h2>
 					<h4>College Student in the North East of England</h4>
 					<p>Hi! My name is Josh and I am currently in my second year at college. I am studying Computer Science, Business, and ICT. This website will show you 
-the work that I have done as well as more stuff about me.
+the work that I have done as well as more stuff about me. <br>
+						I am a clothing dev for <a href="https://discord.gg/RbFyZv6qmS">Pixternal RP</a>
 					</p>
 			
 				</div>
