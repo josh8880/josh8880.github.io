@@ -136,7 +136,7 @@ the work that I have done as well as more stuff about me. <br> <br>
 					<ul class="social-icons">
 						<li><a href="https://steamcommunity.com/id/Josh8880/"><i class="fa fa-steam"></i></a> - Steam (Main)</li><br><br>
 						<li><a href="https://steamcommunity.com/profiles/76561199019482613/"><i class="fa fa-steam"></i></a> - Steam (CSGO)</li><br><br>
-						<li><a href="https://discord.gg/xvKrmggHx5"><i class="fa-brands fa-discord"></i></a> - Discord</li><br><br>
+						<li><a href="https://discord.gg/7WS8pdjH83"><i class="fa-brands fa-discord"></i></a> - Discord</li><br><br>
 						<li><a href="https://github.com/josh8880"><i class="fa fa-github"></i></a> - Github</li><br><br>
 					</ul>
 
